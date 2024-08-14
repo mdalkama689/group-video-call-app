@@ -29,31 +29,44 @@ Ensure you have the following installed:
 ### Installation
 
 1. **Clone the Repository:**
+   \`\`\`bash
    git clone https://github.com/mdalkama689/group-video-call-app.git
-
+   \`\`\`
 
 2. **Navigate to the Project Directory:**
- for frontend:
-cd client
-npm i
+   \`\`\`bash
+   cd group-video-call-app
+   \`\`\`
 
-for backend 
-cd backend 
-npm i
+   For the frontend:
+   \`\`\`bash
+   cd client
+   npm install
+   \`\`\`
 
-4. **Install Dependencies:**
-npm install
-
-
-
-
-5. **Start the Development Server:**
- separate commands for client and server:
-npm run dev(client)
-npm start( backend)
+   For the backend:
+   \`\`\`bash
+   cd ../backend
+   npm install
+   \`\`\`
 
 
-7. **Visit the Application:**
+
+3. **Start the Development Server:**
+
+   Separate commands for client and server:
+   \`\`\`bash
+   cd ../client
+   npm run dev
+   \`\`\`
+   \`\`\`bash
+   cd ../backend
+   npm start
+   \`\`\`
+
+
+
+4. **Visit the Application:**
 
    Open your browser and navigate to \`http://localhost:3000\` to start using the app.
 

@@ -15,7 +15,7 @@ A straightforward group video call application using PeerJS. This app allows mul
   - PeerJS
 - **Backend:**
   - Node.js
-  - Express.js (optional, if used for signaling)
+  - Express.js 
 - **Authentication:**
   - None (public access)
 
@@ -29,40 +29,31 @@ Ensure you have the following installed:
 ### Installation
 
 1. **Clone the Repository:**
-   \`\`\`bash
-   git clone <repository-url>
-   \`\`\`
+   git clone https://github.com/mdalkama689/group-video-call-app.git
+
 
 2. **Navigate to the Project Directory:**
-   \`\`\`bash
-   cd <project-directory>
-   \`\`\`
+ for frontend:
+cd client
+npm i
 
-3. **Install Dependencies:**
-   \`\`\`bash
-   npm install
-   \`\`\`
+for backend 
+cd backend 
+npm i
 
-4. **Set Up Environment Variables:**
+4. **Install Dependencies:**
+npm install
 
-   If using a backend server for signaling, create a \`.env\` file with:
-   \`\`\`
-   PEERJS_KEY=<your-peerjs-key>
-   \`\`\`
+
+
 
 5. **Start the Development Server:**
+ separate commands for client and server:
+npm run dev(client)
+npm start( backend)
 
-   Run the server and client:
-   \`\`\`bash
-   npm start
-   \`\`\`
-   Or, if you have separate commands for client and server:
-   \`\`\`bash
-   npm run server
-   npm run client
-   \`\`\`
 
-6. **Visit the Application:**
+7. **Visit the Application:**
 
    Open your browser and navigate to \`http://localhost:3000\` to start using the app.
 
@@ -84,11 +75,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [PeerJS](https://peerjs.com/)
 EOL
 
-# Add the README.md to git
-git add README.md
-
-# Commit the README.md
-git commit -m "Add README for Simple Group Video Call App"
-
-# Push to the repository (replace <branch> with your branch name, e.g., main or master)
-git push origin <branch>
